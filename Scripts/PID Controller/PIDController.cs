@@ -8,14 +8,6 @@ using UnityEngine;
 [System.Serializable]
 public class PIDController
 {
-    // Options:
-    // - Additionnal filtering
-    // - Derivative kick
-    // - Reset windup mitigation
-    // - bumpless transfer
-    // - Proportional on measurement
-    // - Deadband
-
     public PIDControllerState state;
     public PIDControllerParameters parameters;
     private PIDGraphHolder pidGraphHolder = null;
